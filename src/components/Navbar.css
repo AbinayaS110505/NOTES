@@ -1,0 +1,95 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2056d;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .nav-link {
+    color: white;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #13070d; /* Light pink color on hover */
+  }
+  /* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .navbar .nav-link {
+    color: white;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ff69b4;
+  }
+  
+  .profile-icon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff69b4;
+  }
+  
+  .profile-popup {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: left;
+    z-index: 1001;
+  }
+  
+  .profile-popup h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .profile-popup button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .profile-popup button:hover {
+    background-color: #ff4081;
+  }
+  
